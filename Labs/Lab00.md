@@ -79,8 +79,7 @@ show version
 
 ### Topologia
 
-- ` <img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/7ccd7042-f07e-4447-883e-5a58f4271dd9" />
-`
+- <img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/7ccd7042-f07e-4447-883e-5a58f4271dd9" />
 
 ### Configuração do Roteador
 
