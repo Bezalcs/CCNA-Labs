@@ -1,36 +1,54 @@
 # CCNA Labs
 
-Este repositório reúne os laboratórios práticos que desenvolvo durante meus estudos em Redes de Computadores e preparação para a certificação CCNA.
+Este repositório reúne os laboratórios práticos desenvolvidos durante meus estudos em Redes de Computadores e preparação para a certificação Cisco CCNA.
 
-O objetivo é consolidar conhecimentos teóricos por meio de cenários reais, utilizando principalmente o Cisco Packet Tracer, além de documentar as configurações realizadas e os resultados obtidos.
+O objetivo é consolidar os conhecimentos teóricos por meio da implementação de cenários práticos, utilizando principalmente o Cisco Packet Tracer. Cada laboratório é documentado com as configurações realizadas, testes executados e os conhecimentos adquiridos ao longo da atividade.
 
-## Tecnologias
+---
+
+## Tecnologias e Conceitos
 
 - Cisco IOS
 - Cisco Packet Tracer
-- TCP/IP
+- Modelo TCP/IP
+- IPv4
 - Switching
 - VLAN
-- Trunk
+- Trunk (IEEE 802.1Q)
 - Inter-VLAN Routing
 - DHCP
 - NAT
 - ACL
 - STP
 - OSPF
-- IPv4
 
-## Estrutura
+---
+
+## Estrutura dos Laboratórios
 
 Cada laboratório contém:
 
 - Objetivo
 - Topologia da rede
+- Endereçamento IP
 - Configuração dos dispositivos
-- Testes realizados
+- Comandos de validação
+- Evidências (prints e testes)
+- Arquivos do laboratório
+- Conhecimentos adquiridos
 - Troubleshooting (quando aplicável)
-- Conclusões
+
+---
 
 ## Laboratórios
 
-00 - Configurações basicas do roteador e do switch
+| Status | Laboratório | Descrição |
+|:------:|-------------|-----------|
+| ✅ | Lab00 | Configuração Inicial de Roteador e Switch |
+| ⏳ | Lab01 | Criação de VLANs |
+| ⏳ | Lab02 | Configuração de Trunks |
+| ⏳ | Lab03 | Inter-VLAN Routing |
+| ⏳ | Lab04 | DHCP |
+| ⏳ | Lab05 | NAT |
+| ⏳ | Lab06 | ACL |
+| ⏳ | Lab07 | OSPF |
