@@ -25,9 +25,6 @@ Realizar a configuração inicial de um roteador e um switch Cisco utilizando bo
 
 > <img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/d8915bdb-df06-4f84-a459-303e480a3242" />
 
-
-![Topologia]()
-
 ---
 
 ## Endereçamento
