@@ -107,9 +107,9 @@ show version
 
 | Arquivo | Descrição |
 |----------|-----------|
-| `Lab00.pkt` | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
-| `R1-running-config.txt` | Configuração final do roteador. |
-| `SW1-running-config.txt` | Configuração final do switch. |
+| https://drive.google.com/file/d/1Fameype0ytcc-ibhqRkrgV1zyNOkc4RZ/view?usp=sharing | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
+| https://drive.google.com/file/d/1MTWou9c3OkEussBkee-x_NidATJyKtJi/view?usp=sharing | Configuração final do roteador. |
+| https://drive.google.com/file/d/1zKSG1kQPP4hF76RDKxAhYVj9fXGasiAg/view?usp=sharing | Configuração final do switch. |
 
 ---
 
