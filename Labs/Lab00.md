@@ -6,20 +6,51 @@ Realizar a configuração inicial de um roteador e um switch Cisco utilizando bo
 
 ---
 
-## Tarefas Executadas
+## Conceitos Trabalhados
+
+- Cisco IOS
+- CLI Cisco
+- IPv4
+- Interface de Gerenciamento
+- Gateway Padrão
+- Console
+- VTY
+- Banner MOTD
+- Running Configuration
+- Startup Configuration
+
+---
+
+## Topologia
+
+> Inserir imagem da topologia.
+
+![Topologia](imagens/topologia.png)
+
+---
+
+## Endereçamento
+
+| Equipamento | Interface | Endereço IP |
+|-------------|-----------|-------------|
+| R1 | GigabitEthernet0/0 | 192.168.1.1/24 |
+| SW1 | VLAN 1 | 192.168.1.2/24 |
+| PC1 | FastEthernet0 | 192.168.1.10/24 |
+
+---
+
+## Configurações Realizadas
 
 - Configuração do hostname
-- Configuração da senha do modo privilegiado (`enable secret`)
-- Configuração da senha de acesso via console
-- Configuração do acesso remoto (VTY)
+- Configuração do `enable secret`
+- Configuração da senha de console
+- Configuração das linhas VTY
 - Configuração do banner MOTD
 - Ativação do `service password-encryption`
 - Configuração da interface GigabitEthernet0/0 do roteador
 - Configuração da interface VLAN 1 do switch
 - Configuração do gateway padrão do switch
-- Salvamento da configuração (`copy running-config startup-config`)
-- Validação utilizando comandos `show`
-- Testes de conectividade com `ping` e `traceroute`
+- Salvamento da configuração
 
 ---
 
@@ -27,33 +58,80 @@ Realizar a configuração inicial de um roteador e um switch Cisco utilizando bo
 
 ### Roteador
 
-- `show ip interface brief`
-- `show running-config`
-- `show startup-config`
-- `show version`
+```text
+show ip interface brief
+show running-config
+show startup-config
+show version
+```
 
 ### Switch
 
-- `show ip interface brief`
-- `show running-config`
-- `show startup-config`
-- `show vlan brief`
+```text
+show ip interface brief
+show running-config
+show startup-config
+show vlan brief
+show version
+```
 
 ---
 
 ## Evidências
 
-> Nesta seção serão adicionados:
->
-> - Topologia da rede
-> - Prints dos comandos de validação
-> - Testes de conectividade
-> - Arquivos de configuração (`running-config`)
+### Topologia
+
+- `imagens/topologia.png`
+
+### Configuração do Roteador
+
+- `imagens/show-ip-interface-brief-r1.png`
+- `imagens/show-running-config-r1.png`
+
+### Configuração do Switch
+
+- `imagens/show-ip-interface-brief-sw1.png`
+- `imagens/show-vlan-brief-sw1.png`
+
+### Testes de Comunicação
+
+- `imagens/ping-r1-sw1.png`
+- `imagens/traceroute-pc-r1.png`
 
 ---
 
-## Conclusão
+## Arquivos
 
-Este laboratório permitiu praticar a configuração inicial de um roteador e de um switch Cisco, abordando os principais procedimentos necessários para disponibilizar os equipamentos em um ambiente de rede.
+| Arquivo | Descrição |
+|----------|-----------|
+| `Lab00.pkt` | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
+| `R1-running-config.txt` | Configuração final do roteador. |
+| `SW1-running-config.txt` | Configuração final do switch. |
 
-Durante a atividade foram configurados o hostname, a senha do modo privilegiado, os acessos via console e VTY, o banner MOTD, a criptografia das senhas, o endereçamento das interfaces de gerenciamento e o gateway padrão do switch. Após a aplicação das configurações, foram realizados testes de validação utilizando comandos `show`, além de testes de conectividade com `ping` e `traceroute`, confirmando o funcionamento esperado da topologia.
+---
+
+## Resultado
+
+Todos os objetivos do laboratório foram concluídos com sucesso.
+
+- Equipamentos configurados.
+- Interfaces ativas.
+- Configurações salvas.
+- Comunicação validada.
+- Testes de conectividade realizados com sucesso.
+
+---
+
+## Lições Aprendidas
+
+- Diferença entre `running-config` e `startup-config`.
+- Diferença entre a configuração de um roteador e de um switch Layer 2.
+- Importância do comando `no shutdown`.
+- Utilização dos principais comandos `show` para validação.
+- Configuração dos acessos administrativo, console e remoto (VTY).
+
+---
+
+## Próximo Laboratório
+
+**Lab01 - Criação de VLANs**
