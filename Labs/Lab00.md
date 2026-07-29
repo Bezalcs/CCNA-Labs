@@ -25,7 +25,8 @@ Realizar a configuração inicial de um roteador e um switch Cisco utilizando bo
 
 > Inserir imagem da topologia.
 
-![Topologia](imagens/topologia.png)
+![Topologia](<img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/f49301f2-6155-414c-a3d1-d8cf32b2e39c" />
+)
 
 ---
 
@@ -81,22 +82,29 @@ show version
 
 ### Topologia
 
-- `imagens/topologia.png`
+- ` <img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/7ccd7042-f07e-4447-883e-5a58f4271dd9" />
+`
 
 ### Configuração do Roteador
 
-- `imagens/show-ip-interface-brief-r1.png`
-- `imagens/show-running-config-r1.png`
+- `<img width="532" height="458" alt="show ip interface r1" src="https://github.com/user-attachments/assets/bd89e4b6-92f7-4560-8632-86dd4f97c78a" />
+`
+- `<img width="523" height="502" alt="show running config r1" src="https://github.com/user-attachments/assets/51319f1e-c083-4738-b22f-cbb3bbe9155e" />
+`
 
 ### Configuração do Switch
 
-- `imagens/show-ip-interface-brief-sw1.png`
-- `imagens/show-vlan-brief-sw1.png`
+- `<img width="522" height="498" alt="show ip interface sw1" src="https://github.com/user-attachments/assets/222e0e55-8dc3-47a8-9ad9-e8fe9c28ad99" />
+`
+- `<img width="526" height="501" alt="show vlan brief sw1" src="https://github.com/user-attachments/assets/bbf663b0-0c91-4f0d-87af-11a65dfbe3d5" />
+`
 
 ### Testes de Comunicação
 
-- `imagens/ping-r1-sw1.png`
-- `imagens/traceroute-pc-r1.png`
+- `<img width="950" height="499" alt="lab0 teste de ping" src="https://github.com/user-attachments/assets/89c0db14-1089-49ec-a603-9b6f3e0653c3" />
+`
+- `<img width="958" height="503" alt="lab0 traceroute" src="https://github.com/user-attachments/assets/514066be-02ee-460f-9693-1f074355486c" />
+`
 
 ---
 
