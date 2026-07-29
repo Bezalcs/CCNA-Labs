@@ -1,27 +1,59 @@
+# Lab00 - Configuração Inicial de Switch e Roteador
 
-<img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/8fd01273-ef26-4217-985a-1ad73137791e" />
-<img width="958" height="503" alt="lab0 traceroute" src="https://github.com/user-attachments/assets/4af9b30e-123c-4fc6-986b-643c0f87c50c" />
-<img width="950" height="499" alt="lab0 teste de ping" src="https://github.com/user-attachments/assets/0e4ca763-eda5-4ab8-81fd-38264f6312f4" />
 ## Objetivo
 
-Realizar a configuração inicial de um roteador e um switch Cisco utilizando boas práticas de configuração.
+Realizar a configuração inicial de um roteador e um switch Cisco utilizando boas práticas de configuração, preparando os equipamentos para administração e gerenciamento em uma rede.
 
-## Tarefas
+---
 
--  Configurar hostname
--  Configurar enable secret
--  Configurar senha do console
--  Configurar acesso VTY
--  Configurar banner MOTD
--  Ativar service password-encryption
--  Configurar interface G0/0 do roteador
--  Configurar interface VLAN1 do switch
--  Configurar gateway do switch
--  Salvar configurações
--  Validar com comandos show
-- Testes de comunicação (ping e traceroute)
+## Tarefas Executadas
 
-## Conclusão 
+- Configuração do hostname
+- Configuração da senha do modo privilegiado (`enable secret`)
+- Configuração da senha de acesso via console
+- Configuração do acesso remoto (VTY)
+- Configuração do banner MOTD
+- Ativação do `service password-encryption`
+- Configuração da interface GigabitEthernet0/0 do roteador
+- Configuração da interface VLAN 1 do switch
+- Configuração do gateway padrão do switch
+- Salvamento da configuração (`copy running-config startup-config`)
+- Validação utilizando comandos `show`
+- Testes de conectividade com `ping` e `traceroute`
 
-A realização desse laboratorio permitiu consolidar fundamentos basicos de configurações de roteadores e switchs , aplicando comandos essencias do cisco client para o fim de provisionar os equipamentos para rede, definindo hostaname, senhas para modo administrador, comunicação via cabo console e remoto VTY e encripitação dessas senhas para maior segurança, definindo também o banner MOTD e infertaces para comunição, portas Gigabitfastethernet0/0 para o roteador e VLAN1 e gateway para o switch, após as configurações salvas , testes de ping e traceroute realizados comprovando o funcionamento esperado dos equipamentos.
+---
 
+## Comandos de Validação
+
+### Roteador
+
+- `show ip interface brief`
+- `show running-config`
+- `show startup-config`
+- `show version`
+
+### Switch
+
+- `show ip interface brief`
+- `show running-config`
+- `show startup-config`
+- `show vlan brief`
+
+---
+
+## Evidências
+
+> Nesta seção serão adicionados:
+>
+> - Topologia da rede
+> - Prints dos comandos de validação
+> - Testes de conectividade
+> - Arquivos de configuração (`running-config`)
+
+---
+
+## Conclusão
+
+Este laboratório permitiu praticar a configuração inicial de um roteador e de um switch Cisco, abordando os principais procedimentos necessários para disponibilizar os equipamentos em um ambiente de rede.
+
+Durante a atividade foram configurados o hostname, a senha do modo privilegiado, os acessos via console e VTY, o banner MOTD, a criptografia das senhas, o endereçamento das interfaces de gerenciamento e o gateway padrão do switch. Após a aplicação das configurações, foram realizados testes de validação utilizando comandos `show`, além de testes de conectividade com `ping` e `traceroute`, confirmando o funcionamento esperado da topologia.
