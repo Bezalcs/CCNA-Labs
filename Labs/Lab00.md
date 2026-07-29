@@ -33,7 +33,6 @@ Realizar a configuração inicial de um roteador e um switch Cisco utilizando bo
 |-------------|-----------|-------------|
 | R1 | GigabitEthernet0/0 | 192.168.1.1/24 |
 | SW1 | VLAN 1 | 192.168.1.2/24 |
-| PC1 | FastEthernet0 | 192.168.1.10/24 |
 
 ---
 
