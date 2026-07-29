@@ -1,3 +1,7 @@
+
+<img width="948" height="502" alt="topologia lab0" src="https://github.com/user-attachments/assets/8fd01273-ef26-4217-985a-1ad73137791e" />
+<img width="958" height="503" alt="lab0 traceroute" src="https://github.com/user-attachments/assets/4af9b30e-123c-4fc6-986b-643c0f87c50c" />
+<img width="950" height="499" alt="lab0 teste de ping" src="https://github.com/user-attachments/assets/0e4ca763-eda5-4ab8-81fd-38264f6312f4" />
 ## Objetivo
 
 Realizar a configuração inicial de um roteador e um switch Cisco utilizando boas práticas de configuração.
