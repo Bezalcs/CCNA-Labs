@@ -137,3 +137,4 @@ Todos os objetivos do laboratório foram concluídos com sucesso.
 ## Próximo Laboratório
 
 **Lab01 - Criação de VLANs**
+https://github.com/Bezalcs/CCNA-Labs/blob/main/Labs/lab01.md
