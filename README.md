@@ -45,7 +45,7 @@ Cada laboratório contém:
 | Status | Laboratório | Descrição | Link |
 |:------:|-------------|-----------|---------- |
 | ✅ | Lab00 | Configuração Inicial de Roteador e Switch | https://github.com/Bezalcs/CCNA-Labs/blob/main/Labs/Lab00.md |
-| ⏳ | Lab01 | Criação de VLANs | |
+| ✅ | Lab01 | Criação de VLANs | https://github.com/Bezalcs/CCNA-Labs/blob/main/Labs/lab01.md |
 | ⏳ | Lab02 | Configuração de Trunks | |
 | ⏳ | Lab03 | Inter-VLAN Routing | |
 | ⏳ | Lab04 | DHCP | |
