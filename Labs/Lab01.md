@@ -139,4 +139,4 @@ Todos os objetivos do laboratório foram concluídos com sucesso.
 
 ## Próximo Laboratório
 
-**Lab02 - Configuração de Trunks (802.1Q)**
+**Lab02 - Configuração de Trunks (802.1Q)** https://github.com/Bezalcs/CCNA-Labs/blob/main/Labs/Lab02.md
