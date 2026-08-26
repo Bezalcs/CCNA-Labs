@@ -185,9 +185,9 @@ A comunicação entre diferentes VLANs será abordada no próximo laboratório, 
 
 | Arquivo | Descrição |
 |----------|-----------|
-| link arquivo do lab | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
-| link arquivo das configs do sw1 | Configuração final do switch 1. |
-| link arquivo das configs do sw2 | Configuração final do switch 2. |
+| https://drive.google.com/file/d/1ea_ODr7690Ygy9KdB_BWrQDWK_7en88W/view?usp=sharing | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
+| https://drive.google.com/file/d/1kpjFYJzRdy04rPHhjswAkgNbmiLpelbJ/view?usp=drive_link | Configuração final do switch 1. |
+| https://drive.google.com/file/d/1o3TNk9SaTXIXEUq3vDstV_jdM8LZxH6q/view?usp=drive_link | Configuração final do switch 2. |
 
 ---
 
