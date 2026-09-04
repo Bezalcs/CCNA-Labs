@@ -243,5 +243,5 @@ Os testes demonstraram que:
 
 ## Próximo Laboratório
 
-*Lab 03 - Inter-VLAN Routing*
+*Lab 03 - Inter-VLAN Routing* - https://github.com/Bezalcs/CCNA-Labs/blob/main/Labs/lab03.md
 
