@@ -13,7 +13,7 @@ Validar a comunicação entre dispositivos pertencentes à mesma VLAN e verifica
 <img width="451" height="200" alt="topologia" src="https://github.com/user-attachments/assets/45f8f538-1e36-46dc-a58d-e849d392d7f4" />
 
 
-### Conexões
+### Endereçamento IP
 
 | Dispositivo | Switch | Interface | VLAN |
 |---|---|---|---|
