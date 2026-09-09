@@ -136,10 +136,10 @@ Os testes demonstraram que:
 
 | Arquivo | Descrição |
 |----------|-----------|
-| arquivo packet tracer lab3 | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
-| arquivo txt sw1 | Configuração final do switch SW1 (Layer 3). |
-| arquivo txt sw2 | Configuração final do switch SW2. |
-| arquivo txt sw3 | Configuração final do switch SW3. |
+| https://drive.google.com/file/d/1VfHZclSciKsbcbwmuP3f8bMuytoNjHz3/view?usp=sharing | Topologia do laboratório desenvolvida no Cisco Packet Tracer. |
+| https://drive.google.com/file/d/1nLbC7oe2C7rs0jfw5QSSwx0mhlWzXHNN/view?usp=sharing | Configuração final do switch SW1 (Layer 3). |
+| https://drive.google.com/file/d/1p7I-MZbOLovhA-am5t08dZUwk9L-Sqz-/view?usp=sharing | Configuração final do switch SW2. |
+| https://drive.google.com/file/d/1XpHOB9jPUzLp_CqJdw-_zqkO-7vaSjh1/view?usp=sharing | Configuração final do switch SW3. |
 
 
 ## Conhecimentos Adquiridos
